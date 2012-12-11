@@ -5,9 +5,13 @@ public class testingGitMain {
 		System.out.println("Welcome.....");
 //		System.out.println("hello from testing EGIT!!!");
 		if(SayHello("naveen")){
-			System.out.println("Bye....");
+			String msg = "BYE";
+			for(int i=0;i<3;i++){
+				System.out.println(msg.charAt(i));
+			}
+
 		}
-		
+				
 	}
 	
 	
